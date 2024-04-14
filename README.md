@@ -1,1 +1,5 @@
-# Ice Hockey Game Attendance Prediction
+## Analysis of Movie Box Office Performance
+### Overview
+This project applies statistics and machine learning to analyze and predict movie box office performance. Firstly, we selected various features that might influence movie box office, such as movie duration, budget, and the number of competing movies. After collecting the samples, we computed the correlation coefficient between each feature and the movie box office. Based on this information, we plotted linear regression graphs to analyze the correlation between each feature and the box office.
+
+Furthermore, we divided the sample data into training and testing sets, and trained three different models: Linear Regression, Random Forest, and Ridge Regression. During model training, we set up a hyperparameter grid and utilized cross-validation methods to select the optimal hyperparameter combinations for each model to optimize their performance. Finally, we evaluated the performance of each model using metrics such as mean squared error (MSE) and R-squared, enabling us to choose the most suitable model for predicting movie box office performance.
